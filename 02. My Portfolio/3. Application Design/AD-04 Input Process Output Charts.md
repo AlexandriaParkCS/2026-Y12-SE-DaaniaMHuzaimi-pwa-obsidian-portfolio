@@ -9,7 +9,7 @@ The Login/Register process is a critical component of SleepTracker, enabling sec
 - Confirm Password 
 **Process**
 1. Validate form using Flask-WTF: check all fields are present, password and confirm_password match (`EqualTo` validator)
-2. Sanitise username using `sanitise()` — strip HTML tags (XSS prevention)
+2. Sanitise username using `sanitise()` strip HTML tags (XSS prevention)
 3. Query database: check if a `User` record with the same username already exists
 4. If username exists: reject with flash message "Username already taken"
 5. If username is available: create new `User` object, call `user.set_password(password)` which runs `bcrypt.generate_password_hash()` and stores the hash
@@ -41,8 +41,8 @@ The Login/Register process is a critical component of SleepTracker, enabling sec
 The Sleep Entry Logging process handles the creation of a new sleep record for the authenticated user.
 
 **Input**
-- Bedtime (datetime-local field — date and time)
-- Wake Time (datetime-local field — date and time)
+- Bedtime (datetime-local field  date and time)
+- Wake Time (datetime-local field date and time)
 - Quality (integer select, 1–5)
 - Notes (free text, optional, max ~500 characters)
 
@@ -50,7 +50,7 @@ The Sleep Entry Logging process handles the creation of a new sleep record for t
 1. Verify user is authenticated via `@login_required` decorator
 2. Validate form using Flask-WTF: check bedtime and wake_time are present and valid datetime format
 3. Run custom validator `validate_wake_time()`: confirm `wake_time > bedtime`; if not, raise `ValidationError`
-4. Sanitise `notes` field using `sanitise()` — strip HTML tags
+4. Sanitise `notes` field using `sanitise()` strip HTML tags
 5. Create new `SleepEntry` object with `user_id=session['user_id']`, `bedtime`, `wake_time`, `quality`, `notes`
 6. Commit to database
 7. Redirect to history page
