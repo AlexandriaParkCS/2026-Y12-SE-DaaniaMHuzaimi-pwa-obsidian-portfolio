@@ -2,12 +2,12 @@ In industry in most cases, engineers use the [Unified Modelling Language](https:
 
 As this is a high school learning project, we will take a slight detour from the industry standard and structure the design as follows:
 
-- [[01. Student Guide/3. Application Design/AD-01 Story Boards|AD-01 Story Boards]]
-- [[01. Student Guide/3. Application Design/AD-02 Data Flow Diagrams|AD-02 Data Flow Diagrams]]
+- [[✔️AD-01 Story Boards|✔️AD-01 Story Boards]]
+- [[✔️AD-02 Data Flow Diagrams|✔️AD-02 Data Flow Diagrams]]
 - [[01. Student Guide/3. Application Design/AD-03 Structure Chart|AD-03 Structure Charts]]
-- [[01. Student Guide/3. Application Design/AD-04 Input Process Output Charts|AD-04 Input Process Output Charts]]
+- [[✔️AD-04 Input Process Output Charts|✔️AD-04 Input Process Output Charts]]
 - [[AD-05 Entity Relationship Diagram]]
-- [[01. Student Guide/3. Application Design/AD-06 Data Dictionary|AD-06 Data Dictionary]]
+- [[✔️AD-06 Data Dictionary|✔️AD-06 Data Dictionary]]
 - [[01. Student Guide/3. Application Design/AD-07 Class Diagrams|AD-07 Class Diagrams]]
 
 With this design, "less is more".

@@ -1,6 +1,6 @@
 This section describes the projected schedule with major milestones to manage expectations. Typically, this will be in a form of a Gantt Chart.
 
-### Example<hr>
+ Example<hr>
 
 | Week | Activities                              | Milestone                 |
 | ---- | --------------------------------------- | ------------------------- |

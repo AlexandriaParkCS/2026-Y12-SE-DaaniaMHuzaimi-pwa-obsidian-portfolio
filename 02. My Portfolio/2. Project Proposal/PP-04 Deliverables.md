@@ -1,1 +1,5 @@
-...
+**Working application:** A fully functional SleepTracker Progressive Web App (PWA) built with Flask, allowing users to record and manage sleep data through a responsive interface. The application supports both online and offline use through the implementation of a service worker.
+**Source code:*** A complete GitHub repository (`2026-Y12-SE-DaaniaMHuzaimi-pwa-flask-application`) containing all source code, assets, and configuration files. The repository also includes a full commit history showing the development, debugging, and improvement of the project over time.
+ **Documentation:** Obsidian vault documenting the entire development process, including the proposal, design, implementation, testing, code reviews, security decisions, evaluation tasks, and personal reflections.
+ **User guide:** A `README.md` file containing setup instructions, application features, dependencies, and guidance on how to run and use the project.
+ **Evaluation reports:** Documented manual test cases and evaluation reports showing testing procedures, expected and actual results, and pass/fail outcomes to demonstrate that the application meets the project requirements.

@@ -1,6 +1,6 @@
 This section describes:
-1. The problem that the software project will solve.
-2. The users that are 'experiencing' the problem.
+1. The problem that the software project will solve. -> Fix/ improve sleep schedule 
+2. The users that are 'experiencing' the problem. -> 
 
 
 

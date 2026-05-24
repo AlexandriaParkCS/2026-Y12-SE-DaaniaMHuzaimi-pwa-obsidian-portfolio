@@ -1,0 +1,5 @@
+- **Working Application:** A fully functional **BudgetWise** web application deployed online.
+- Source Code: A GitHub repository containing the latest version of the application’s source code.
+- **Documentation:** Technical documentation describing the system architecture, design decisions, and developer instructions.
+- **User Guide:** A step-by-step online guide to help end users understand and use the application effectively.
+- **Evaluation Reports:** Documents summarising testing results, user feedback, and how well the project meets the defined success criteria.
